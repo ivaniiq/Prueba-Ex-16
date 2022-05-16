@@ -28,43 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.textBox = new System.Windows.Forms.TextBox();
+            this.button = new System.Windows.Forms.Button();
+            this.labelSaludo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(204, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(358, 27);
-            this.textBox1.TabIndex = 0;
+            this.textBox.Location = new System.Drawing.Point(204, 52);
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(358, 27);
+            this.textBox.TabIndex = 0;
             // 
-            // button1
+            // button
             // 
-            this.button1.Location = new System.Drawing.Point(290, 161);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 29);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button.Location = new System.Drawing.Point(290, 161);
+            this.button.Name = "button";
+            this.button.Size = new System.Drawing.Size(185, 29);
+            this.button.TabIndex = 1;
+            this.button.Text = "Saluda";
+            this.button.UseVisualStyleBackColor = true;
+            this.button.Click += new System.EventHandler(this.button_Click);
             // 
-            // label1
+            // labelSaludo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(362, 325);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 20);
-            this.label1.TabIndex = 2;
+            this.labelSaludo.AutoSize = true;
+            this.labelSaludo.Location = new System.Drawing.Point(362, 325);
+            this.labelSaludo.Name = "labelSaludo";
+            this.labelSaludo.Size = new System.Drawing.Size(0, 20);
+            this.labelSaludo.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.labelSaludo);
+            this.Controls.Add(this.button);
+            this.Controls.Add(this.textBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -74,8 +75,8 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private Button button1;
-        private Label label1;
+        private TextBox textBox;
+        private Button button;
+        private Label labelSaludo;
     }
 }
