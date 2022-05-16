@@ -35,14 +35,14 @@
             // 
             // textBox
             // 
-            this.textBox.Location = new System.Drawing.Point(204, 52);
+            this.textBox.Location = new System.Drawing.Point(42, 41);
             this.textBox.Name = "textBox";
             this.textBox.Size = new System.Drawing.Size(358, 27);
             this.textBox.TabIndex = 0;
             // 
             // button
             // 
-            this.button.Location = new System.Drawing.Point(290, 161);
+            this.button.Location = new System.Drawing.Point(128, 150);
             this.button.Name = "button";
             this.button.Size = new System.Drawing.Size(185, 29);
             this.button.TabIndex = 1;
@@ -53,7 +53,7 @@
             // labelSaludo
             // 
             this.labelSaludo.AutoSize = true;
-            this.labelSaludo.Location = new System.Drawing.Point(362, 325);
+            this.labelSaludo.Location = new System.Drawing.Point(200, 314);
             this.labelSaludo.Name = "labelSaludo";
             this.labelSaludo.Size = new System.Drawing.Size(0, 20);
             this.labelSaludo.TabIndex = 2;
@@ -62,7 +62,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(482, 392);
             this.Controls.Add(this.labelSaludo);
             this.Controls.Add(this.button);
             this.Controls.Add(this.textBox);
