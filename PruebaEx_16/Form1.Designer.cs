@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox = new System.Windows.Forms.TextBox();
+            this.textBoxNom = new System.Windows.Forms.TextBox();
             this.button = new System.Windows.Forms.Button();
             this.labelSaludo = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxSaludo = new System.Windows.Forms.TextBox();
             this.labelNombre = new System.Windows.Forms.Label();
             this.labelTipSaludo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox
+            // textBoxNom
             // 
-            this.textBox.Location = new System.Drawing.Point(230, 58);
-            this.textBox.Name = "textBox";
-            this.textBox.Size = new System.Drawing.Size(358, 27);
-            this.textBox.TabIndex = 0;
+            this.textBoxNom.Location = new System.Drawing.Point(230, 58);
+            this.textBoxNom.Name = "textBoxNom";
+            this.textBoxNom.Size = new System.Drawing.Size(358, 27);
+            this.textBoxNom.TabIndex = 0;
             // 
             // button
             // 
@@ -61,12 +61,12 @@
             this.labelSaludo.Size = new System.Drawing.Size(0, 20);
             this.labelSaludo.TabIndex = 2;
             // 
-            // textBox1
+            // textBoxSaludo
             // 
-            this.textBox1.Location = new System.Drawing.Point(231, 125);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(357, 27);
-            this.textBox1.TabIndex = 3;
+            this.textBoxSaludo.Location = new System.Drawing.Point(231, 125);
+            this.textBoxSaludo.Name = "textBoxSaludo";
+            this.textBoxSaludo.Size = new System.Drawing.Size(357, 27);
+            this.textBoxSaludo.TabIndex = 3;
             // 
             // labelNombre
             // 
@@ -93,10 +93,10 @@
             this.ClientSize = new System.Drawing.Size(838, 521);
             this.Controls.Add(this.labelTipSaludo);
             this.Controls.Add(this.labelNombre);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxSaludo);
             this.Controls.Add(this.labelSaludo);
             this.Controls.Add(this.button);
-            this.Controls.Add(this.textBox);
+            this.Controls.Add(this.textBoxNom);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -106,10 +106,10 @@
 
         #endregion
 
-        private TextBox textBox;
+        private TextBox textBoxNom;
         private Button button;
         private Label labelSaludo;
-        private TextBox textBox1;
+        private TextBox textBoxSaludo;
         private Label labelNombre;
         private Label labelTipSaludo;
     }
